@@ -1,6 +1,6 @@
-html body {
-	font-family: 'Helvetica', Arial, sans-serif;
-	color: #111
+body {
+	font-family: 'Helvetica', sans-serif;
+	color: #111;
 	background: #E7E7E7;
 }
 
@@ -9,26 +9,45 @@ a {
 }
 
 .content {
-	text-align: center
+	text-align: center;
 	padding: 0 15% 20px;
 }
 
 .content h1 {
 	text-transform: uppercase;
 	font-weight: bold;
-	margin: 20px 0;
+	margin: 20px;
+}
 
 
-content form {
+.content form {
 	padding: 10px;
 	width: 300px;
-	margin: 0 auto;
+	margin: auto;
 }
 
 .content form input {
 	width: 100%;
-	// border: 2px solid #107394;
+	border: 2px solid #107394;
 	color: #107394;
 	background: transparent;
 	magrin-bottom: 15px;
+}
+
+.fbutton {
+	text-align: center;
+}
+
+.kbutton {
+	text-align: center;
+}
+
+.display {
+	text-align: center;
+	font-family: 'Impact', sans-serif;
+}
+
+#bz {
+	border-radius: 12px;
+	font-size: 20px;
 }
